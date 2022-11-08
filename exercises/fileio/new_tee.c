@@ -56,7 +56,6 @@ int main(int argc, char *argv[]) {
         if (strcmp(argv[1],"-a")!=0) {
             usageErr("%s {{-a} file}...\n", argv[0]);
         }
-        printf("append");
         openFlags = O_CREAT | O_WRONLY | O_APPEND;
         filePerms = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH; /* rw-rw-rw*/
         fd = open(argv[2], openFlags, filePerms);         
