@@ -12,7 +12,7 @@ sample input: ./append_beginning t1
 #include <stdio.h>
 #include <fcntl.h>
 #include <sys/stat.h>
-#include "../lib/tlpi_hdr.h"
+#include "../../tlpi-dist/lib/tlpi_hdr.h"
 
 int main(int argc, char *argv[])
 {
