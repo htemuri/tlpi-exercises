@@ -25,6 +25,7 @@ what does free do?
 
 #include <stdio.h>
 #include <unistd.h>
+#include <limits.h>
 
 #ifndef BLOCK_SIZE
 #define BLOCK_SIZE 1024
